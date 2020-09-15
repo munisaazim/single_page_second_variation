@@ -1,13 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /*Navbar*/
+.navbar{
+    background: url('../image/1.png') no-repeat scroll center bottom;
+}
 .navbarContainer{
     max-width: 1280px;
     margin:0 auto;
@@ -15,6 +18,8 @@ body{
 .navbar label{
     line-height: 80px;
     padding-left:30px;
+    font-size:23px;
+    font-weight: 600;
 }
 .navbar ul{
     list-style: none;
@@ -28,4 +33,25 @@ body{
 }
 .navbar ul li a{
     padding: 7px 13px;
+    text-decoration: none;
+    color: #E8E9ED;
 }
+.navbar ul li a:hover{
+    color: #374048;
+}
+.navbar ul li a.purchase{
+    background: #FF1900;
+    border-radius: 20px;
+    border: 1px solid #FF1900;
+}
+/* .sticky {
+    position: sticky;
+
+    top: 0;
+    background-color:red;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+    
+  } */
