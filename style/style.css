@@ -7,3 +7,25 @@
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
+/*Navbar*/
+.navbarContainer{
+    max-width: 1280px;
+    margin:0 auto;
+}
+.navbar label{
+    line-height: 80px;
+    padding-left:30px;
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+    margin-right: 60px;
+}
+.navbar ul li {
+    display: inline-block;
+    line-height: 80px;
+    
+}
+.navbar ul li a{
+    padding: 7px 13px;
+}
