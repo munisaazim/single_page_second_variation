@@ -9,7 +9,7 @@ body{
 }
 /*Navbar*/
 .navbar{
-    background: url('../image/1.png') no-repeat scroll center bottom;
+   /*  background: url('../image/1.png') no-repeat scroll center bottom; */
 }
 .navbarContainer{
     max-width: 1280px;
@@ -40,9 +40,9 @@ body{
     color: #374048;
 }
 .navbar ul li a.purchase{
-    background: #FF1900;
+    background: #ff392e;
     border-radius: 20px;
-    border: 1px solid #FF1900;
+    border: 1px solid #ff392e
 }
 /* .sticky {
     position: sticky;
@@ -55,3 +55,18 @@ body{
     padding-top: 102px;
     
   } */
+  .navbar label{
+      display: none ;
+  }
+@media(max-width:768px){
+    .navbar ul{
+        float: none;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        transition: all 0s;
+    }
+    .navbar ul li{
+        display: block;
+    }
+}
