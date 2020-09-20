@@ -153,7 +153,7 @@ label.checkbtn i.fa-times{
     line-height: 41px;
     text-align: center;
     color: #8a9095;
-    max-width: 780px;
+    max-width: 710px;
     margin: 0 auto;
 }
 .header p a{
@@ -248,7 +248,7 @@ label.checkbtn i.fa-times{
     line-height: 41px;
     text-align: center;
     color: #8a9095;
-    max-width: 780px;
+    max-width: 710px;
     margin: 0 auto;
     padding-top: 30px;
 }
@@ -297,4 +297,69 @@ label.checkbtn i.fa-times{
     .productContainer p{
         font-size: 16px;
     }
+}
+/*How it works*/
+.processWork{
+   background: #F8FBFD;
+}
+.processWorkContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-top: 80px;
+}
+.processWorkContainer h1{
+    text-align: center;
+    font-size: 48px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #374048;
+}
+.processWorkContainer p.description{
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+    color: #4e575f;
+    max-width: 710px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-weight: 300;
+}
+.processCard{
+    display: flex;
+    margin-top: 85px;
+    justify-content: center;
+    align-items:center;
+}
+.desktop, .toggles{
+    margin-right: 8%;
+}
+ .imageOne{
+    display: flex;
+    justify-content: center;
+} 
+.desktop h2, .toggles h2, .trophy h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-size:26px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #374048;
+    margin-bottom: 5px;
+}
+.toggles:before, .trophy:before{
+    content: '';
+    width: 30px;
+    height: 63px;
+    float: left;
+    margin-left: -30px;
+    display: block;
+    background: url(https://demo.web3canvas.com/themeforest/proland/images/right-angle.png) no-repeat scroll center 32px;
+}
+.desktop p, .toggles p, .trophy p{
+    text-align: center;
+    color: #374048;
+    font-weight: 300;
+    line-height: 30px;
 }
