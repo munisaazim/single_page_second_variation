@@ -331,8 +331,10 @@ label.checkbtn i.fa-times{
     justify-content: center;
     align-items:center;
 }
-.desktop, .toggles{
-    margin-right: 8%;
+.desktop, .toggles, .trophy{
+    width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
 }
  .imageOne{
     display: flex;
@@ -362,4 +364,32 @@ label.checkbtn i.fa-times{
     color: #374048;
     font-weight: 300;
     line-height: 30px;
+}
+/*Responsiveness*/
+@media(max-width:794px){
+    .processCard{
+        flex-flow: column;
+    }
+    .desktop, .toggles, .trophy{
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px;
+    }
+    .toggles:before, .trophy:before{
+    float: none;
+    margin: 0 auto;
+    transform: rotate(90deg);
+    background-position: center center;
+    }
+}
+@media(max-width:646px){
+    .processWorkContainer h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:583px){
+    .processWorkContainer h1{
+        font-size: 36px;
+    }
 }
