@@ -61,7 +61,7 @@ label.checkbtn i.fa-times{
   .sticky + .content {
     padding-top: 0px;
   } 
-
+  .scrollColor{}
   /*Responsiveness of navbar*/
 @media(max-width:933px){
     .navbar label{
