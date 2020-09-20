@@ -1,3 +1,4 @@
+  
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 *{
     padding: 0;
@@ -8,8 +9,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /*Navbar*/
-.navbar{
-   /*  background: url('../image/1.png') no-repeat scroll center bottom; */
+.header{
+    background: url('../image/1.png') no-repeat scroll center bottom;
 }
 .navbarContainer{
     max-width: 1280px;
@@ -52,7 +53,6 @@ body{
 }
 /* .sticky {
     position: sticky;
-
     top: 0;
     background-color:red;
   }
@@ -64,18 +64,24 @@ body{
   .navbar label{
       display: none ;
   }
+  .navbar{
+      height: 60px;
+      margin-bottom: 10px;
+  }
 @media(max-width:769px){
     .navbar ul{
         float: none;
-        width: 100%;
+        width: 90%;
         text-align: center;
-        position: fixed;
+        position: fixed; 
         transition: all 0s;
-        top:80px;
-        left:-100%
+       /*  top:80px; */
+        left:-100%;
+        margin: 0 auto;
     }
     .navbar ul li{
         display: block;
+        text-align: left;
     }
     .navbar label{
         display: block;
@@ -89,8 +95,16 @@ body{
         margin-right: 60px;
         float: right;
         line-height: 80px;
+        color: black;
     }
     #check:checked~ul{
         left: 0;
+        background: #ffffff;
+    }
+    .navbar ul li{
+        line-height: 40px;
+    }
+    .navbar ul li a{
+        color: #374048;
     }
 }
