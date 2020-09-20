@@ -9,9 +9,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /*Navbar*/
-.header{
-    background: url('../image/1.png') no-repeat scroll center bottom;
-}
 .navbarContainer{
     max-width: 1280px;
     margin:0 auto;
@@ -134,5 +131,44 @@ label.checkbtn i.fa-times{
     .navbar ul li a.purchase:hover{
         color: #ff392e;
     }
-   
+}
+/*Content Header*/
+.content{
+    background: url('../image/header-background.jpg')  no-repeat scroll center bottom;
+    background-size: cover;
+}
+.header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header h1{
+   padding-top: 100px;
+   text-align: center;
+   font-size: 78px;
+   color: #374048;
+}
+.header p{
+    padding-top: 40px;
+    font-size: 27px;
+    line-height: 41px;
+    text-align: center;
+    color: #8a9095;
+    max-width: 780px;
+    margin: 0 auto;
+}
+.header p a{
+    border-radius: 60px;
+    background: #ff392e;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.header p a:hover{
+    background: #374048;
+    border-color: #374048;
+}
+.appleWatch{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
 }
