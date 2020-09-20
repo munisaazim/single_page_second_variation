@@ -271,6 +271,9 @@ label.checkbtn i.fa-times{
     .appleWatchTwo img{
         width: 50%;
     }
+    .productContainer p span{
+        border: none;
+    }
 }
 @media(max-width:646px){
     .productContainer h1{
