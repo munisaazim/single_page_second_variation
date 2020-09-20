@@ -66,9 +66,9 @@ label.checkbtn i.fa-times{
     .navbar label{
         padding-left: 15px;
     }
-    .sticky{
+   /*  .sticky{
         position: unset !important;
-    }
+    } */
   }
 
 @media(max-width:903px){
@@ -261,7 +261,37 @@ label.checkbtn i.fa-times{
     justify-content: center;
     margin-top: 100px;
     width: 100%;
+    margin-bottom: 100px;
 }
 .appleWatchTwo img{
-    width: 34%;
+    width:380px;
+}
+/*Responsiveness of product*/
+@media(max-width:772px){
+    .appleWatchTwo img{
+        width: 50%;
+    }
+}
+@media(max-width:646px){
+    .productContainer h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:583px){
+    .productContainer h1{
+        font-size: 36px;
+    }
+}
+@media(max-width:583px){
+    .appleWatchTwo img{
+        width: 200px;
+    }
+}
+@media(max-width:532px){
+    .productContainer h1{
+        font-size: 35px;
+    }
+    .productContainer p{
+        font-size: 16px;
+    }
 }
