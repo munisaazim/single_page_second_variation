@@ -48,7 +48,10 @@ body{
 .navbar input#check{
     display: none;
 }
-.navbar label.checkbtn{
+.navbar label.checkbtn i.fa-bars{
+   display: none;
+}
+.navbar label.checkbtn i.fa-times-circle{
     display: none;
 }
 /* .sticky {
@@ -61,50 +64,38 @@ body{
     padding-top: 102px;
     
   } */
-  .navbar label{
-      display: none ;
-  }
-  .navbar{
-      height: 60px;
-      margin-bottom: 10px;
-  }
-@media(max-width:769px){
-    .navbar ul{
-        float: none;
-        width: 90%;
-        text-align: center;
-        position: fixed; 
-        transition: all 0s;
-       /*  top:80px; */
-        left:-100%;
-        margin: 0 auto;
-    }
-    .navbar ul li{
-        display: block;
-        text-align: left;
-    }
+  @media(max-width:931px){
     .navbar label{
-        display: block;
+        padding-left: 15px;
     }
-    .navbar label.checkbtn {
-        display: block;
-    }
-    label i.fa-bars{
+  }
+
+@media(max-width:903px){
+     .navbar label.checkbtn i.fa-bars{
         display: block;
         font-size:25px;
         margin-right: 60px;
+        color:black;
         float: right;
         line-height: 80px;
-        color: black;
+    }
+   .navbar ul{
+        position: fixed;
+        width: 100%;
+        height: 720px;
+        background: #7F7F7F;
+        text-align: center;
+        transition: all 0s;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+    }
+    .navbar ul li{
+        display: block;
+        margin: 50px 0;
+        line-height:30px;
     }
     #check:checked~ul{
         left: 0;
-        background: #ffffff;
-    }
-    .navbar ul li{
-        line-height: 40px;
-    }
-    .navbar ul li a{
-        color: #374048;
     }
 }
