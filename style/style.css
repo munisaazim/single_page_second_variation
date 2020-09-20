@@ -35,23 +35,24 @@ body{
 .navbar ul li a{
     padding: 7px 13px;
     text-decoration: none;
-    color: #E8E9ED;
+    color:#374048;
 }
 .navbar ul li a:hover{
-    color: #374048;
+    color: #000000;
 }
 .navbar ul li a.purchase{
     background: #ff392e;
     border-radius: 20px;
-    border: 1px solid #ff392e
+    border: 1px solid #ff392e;
+    color: #ffffff;
 }
 .navbar input#check{
    display: none;
 }
-.navbar label.checkbtn i.fa-bars{
+label.checkbtn i.fa-bars{
    display: none;
 }
-.navbar label.checkbtn i.fa-times-circle{
+label.checkbtn i.fa-times{
     display: none;
 }
  .sticky {
@@ -61,7 +62,7 @@ body{
   }
   
   .sticky + .content {
-    padding-top: 102px;
+    padding-top: 0px;
   } 
 
   /*Responsiveness of navbar*/
@@ -78,7 +79,7 @@ body{
     .sticky + .content{
         padding-top: 0px;
     }
-     .navbar label.checkbtn i.fa-bars{
+  label.checkbtn i.fa-bars{
         display: block;
         font-size:25px;
         margin-right: 60px;
@@ -90,7 +91,7 @@ body{
         position: fixed; 
         width: 100%;
         text-align: center;
-        transition: all 1s;
+        transition: all 0.5s;
         top: -150%;
        /*  left: -100%; */
         text-align: center;
@@ -111,12 +112,24 @@ body{
         /* left: 0; */
         top: 80px;
     }
+    #check:checked~label.checkbtn i.fa-bars{
+        display: none;
+    }
+    #check:checked ~label.checkbtn i.fa-times{
+        display: block;
+        font-size:25px;
+        margin-right: 60px;
+        color:black;
+        float: right;
+        line-height: 80px;
+    }
     .navbar ul li a{
-        color: #8f969d;;
+        color: #000000;
     }
     .navbar ul li a.purchase{
         background: none;
         border: none;
+        color: #000000;
     }
     .navbar ul li a.purchase:hover{
         color: #ff392e;
