@@ -44,6 +44,12 @@ body{
     border-radius: 20px;
     border: 1px solid #ff392e
 }
+.navbar input#check{
+    display: none;
+}
+.navbar label.checkbtn{
+    display: none;
+}
 /* .sticky {
     position: sticky;
 
@@ -58,15 +64,33 @@ body{
   .navbar label{
       display: none ;
   }
-@media(max-width:768px){
+@media(max-width:769px){
     .navbar ul{
         float: none;
         width: 100%;
         text-align: center;
         position: fixed;
         transition: all 0s;
+        top:80px;
+        left:-100%
     }
     .navbar ul li{
         display: block;
+    }
+    .navbar label{
+        display: block;
+    }
+    .navbar label.checkbtn {
+        display: block;
+    }
+    label i.fa-bars{
+        display: block;
+        font-size:25px;
+        margin-right: 60px;
+        float: right;
+        line-height: 80px;
+    }
+    #check:checked~ul{
+        left: 0;
     }
 }
