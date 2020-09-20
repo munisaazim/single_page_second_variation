@@ -61,7 +61,6 @@ label.checkbtn i.fa-times{
   .sticky + .content {
     padding-top: 0px;
   } 
-  .scrollColor{}
   /*Responsiveness of navbar*/
 @media(max-width:933px){
     .navbar label{
@@ -226,4 +225,43 @@ label.checkbtn i.fa-times{
     .header h1{
         font-size: 30px;
     }
+}
+/*Product*/
+.product{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.productContainer{
+    padding: 0 40px;
+    margin-top: 120px;
+}  
+.productContainer h1{
+    text-align: center;
+    font-size: 48px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #374048;
+}
+.productContainer p{
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+    color: #8a9095;
+    max-width: 780px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.productContainer p span{
+    border-bottom: #EEEEEE 8px solid;
+    padding-bottom: 20px;
+}
+.appleWatchTwo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+}
+.appleWatchTwo img{
+    width: 34%;
 }
