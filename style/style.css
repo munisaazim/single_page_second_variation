@@ -401,8 +401,7 @@ label.checkbtn i.fa-times{
 }
 /*Benefits*/
 .benefit{
-    margin-top: 100px;
-    
+    margin-top: 100px; 
 }
 .benefitContainer{
     max-width: 1280px;
@@ -495,4 +494,18 @@ label.checkbtn i.fa-times{
     .features{
         margin-top: 0px;
     }
+}
+/*Benefit Two*/
+.benefitTwo{
+   padding-top: 100px;
+    background: #F8FBFD;
+}
+.benefitTwoContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-bottom: 100px;
+}
+.mainFeatureTwo{
+    display: flex;
 }
