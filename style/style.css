@@ -394,6 +394,11 @@ label.checkbtn i.fa-times{
         font-size: 36px;
     }
 }
+@media(max-width:532px){
+    .processWorkContainer p.description{
+        font-size: 16px;
+    }
+}
 /*Benefits*/
 .benefit{
     margin-top: 100px;
@@ -471,5 +476,20 @@ label.checkbtn i.fa-times{
     }
     .features{
         margin-top: 0px;
+    }
+}
+@media(max-width:646px){
+    .benefitContainer h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:583px){
+    .benefitContainer h1{
+        font-size: 36px;
+    }
+}
+@media(max-width:532px){
+    .benefitContainer p.mainText{
+        font-size: 16px;
     }
 }
