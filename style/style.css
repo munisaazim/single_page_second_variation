@@ -320,7 +320,7 @@ label.checkbtn i.fa-times{
     font-size: 20px;
     line-height: 41px;
     text-align: center;
-    color: #4e575f;
+    color: #737c85;
     max-width: 710px;
     margin: 0 auto;
     padding-top: 30px;
@@ -470,7 +470,7 @@ label.checkbtn i.fa-times{
     color: #374048;
 }
 .text p{
-    color: #4e575f;
+    color: #82898f;
     font-size: 14px;
     font-weight: 300;
 }
@@ -508,4 +508,18 @@ label.checkbtn i.fa-times{
 }
 .mainFeatureTwo{
     display: flex;
+}
+.featureTwo,.featurePhoto{
+    width: 33.3333333333%;
+}
+.featurePhoto{
+    margin-left: 60px;
+}
+.key, .volume, .gem, .thumb, .user, .clock{
+    display: flex;
+    margin-top: 60px;
+}
+.key i, .volume i, .gem i, .thumb i, .user i, .clock i{
+    margin-right: 20px;
+    margin-top: 5px;
 }
