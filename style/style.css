@@ -492,4 +492,7 @@ label.checkbtn i.fa-times{
     .benefitContainer p.mainText{
         font-size: 16px;
     }
+    .benefitContainer h1{
+        font-size: 36px;
+    }
 }
