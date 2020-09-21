@@ -429,10 +429,9 @@ label.checkbtn i.fa-times{
 .gps, .heart, .security, .features, .bill, .technology{
     display: flex;
     margin-right:20px;
-   
 }
 .icon i{
-    color: #ff392e;
+    color: #ff1900;;
     font-size: 40px;
 }
 .gps i, .heart i, .security i, .idea i, .bill i, .technology i{
@@ -452,4 +451,17 @@ label.checkbtn i.fa-times{
     color: #4e575f;
     font-size: 14px;
     font-weight: 300;
+}
+@media(max-width:982px){
+    .mainFeatures{
+        display: flex;
+    }
+    .features{
+        flex-flow: column;
+        margin: 0 30px;
+    }
+    .gps, .heart, .security, .features, .bill, .technology{
+        display: flex;
+        margin-top: 60px;
+    }
 }
