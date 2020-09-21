@@ -465,3 +465,11 @@ label.checkbtn i.fa-times{
         margin-top: 60px;
     }
 }
+@media(max-width:766px){
+    .mainFeatures{
+        display: unset;
+    }
+    .features{
+        margin-top: 0px;
+    }
+}
