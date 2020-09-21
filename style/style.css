@@ -397,10 +397,13 @@ label.checkbtn i.fa-times{
 /*Benefits*/
 .benefit{
     margin-top: 100px;
+    
 }
 .benefitContainer{
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 40px;
+    padding-bottom: 100px;
 }
 .benefitContainer h1{
     text-align: center;
@@ -421,9 +424,12 @@ label.checkbtn i.fa-times{
 }
 .features{
     display: flex;
+    margin: 0 auto;
 }
 .gps, .heart, .security, .features, .bill, .technology{
     display: flex;
+    margin-right:20px;
+   
 }
 .icon i{
     color: #ff392e;
@@ -434,5 +440,16 @@ label.checkbtn i.fa-times{
     margin-top: 5px;
 }
 .features{
-    margin-top: 30px;
+    margin-top: 70px;
+}
+.text h2{
+    font-size:20px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #374048;
+}
+.text p{
+    color: #4e575f;
+    font-size: 14px;
+    font-weight: 300;
 }
