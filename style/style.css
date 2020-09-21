@@ -307,6 +307,7 @@ label.checkbtn i.fa-times{
     margin: 0 auto;
     padding: 0 40px;
     padding-top: 80px;
+    padding-bottom: 100px;
 }
 .processWorkContainer h1{
     text-align: center;
@@ -392,4 +393,43 @@ label.checkbtn i.fa-times{
     .processWorkContainer h1{
         font-size: 36px;
     }
+}
+/*Benefits*/
+.benefit{
+    margin-top: 100px;
+}
+.benefitContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.benefitContainer h1{
+    text-align: center;
+    font-size: 48px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #374048;
+}
+.benefitContainer p.mainText{
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+    color: #4e575f;
+    max-width: 710px;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-weight: 300;
+}
+.features{
+    display: flex;
+}
+.gps, .heart, .security, .features, .bill, .technology{
+    display: flex;
+}
+.icon i{
+    color: #ff392e;
+    font-size: 40px;
+}
+.gps i, .heart i, .security i, .idea i, .bill i, .technology i{
+    margin-right: 20px;
+    margin-top: 5px;
 }
