@@ -506,6 +506,9 @@ label.checkbtn i.fa-times{
     padding: 0 40px;
     padding-bottom: 100px;
 }
+.featureTwo_{
+    width: 33.3333333333%; 
+}
 .mainFeatureTwo{
     display: flex;
 }
@@ -522,4 +525,31 @@ label.checkbtn i.fa-times{
 .key i, .volume i, .gem i, .thumb i, .user i, .clock i{
     margin-right: 20px;
     margin-top: 5px;
+}
+/*Responsive*/
+@media(max-width:982px){
+    .mainFeatureTwo{
+        display: none;
+    }
+    .mainFeatureTwoTablet{
+        display: flex;
+        flex-flow: column;
+    }
+    .featurePhoto{
+        margin: 0 auto;
+        width: auto;
+    }
+    .featureTwoTablet{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .features{
+        width: auto;
+    }
+    .featureTwo{
+     width: 35%;
+     margin: 0 35px;
+     
+    }
 }
