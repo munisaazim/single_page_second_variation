@@ -618,7 +618,6 @@ label.checkbtn i.fa-times{
     margin-top: 80px;
 }
 .collectionOne{
-    width: 25%; 
     padding: 15px;
 }
 .collectionPhoto img{
@@ -661,7 +660,10 @@ label.checkbtn i.fa-times{
     color: #ffffff;
 }
 .allCollectionTablet{
-    display: none;
+  display: flex;
+  width: 50%;
+  justify-content: center ;
+
 }
 .modal {
     display: none; /* Hidden by default */
