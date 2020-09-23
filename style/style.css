@@ -518,6 +518,7 @@ label.checkbtn i.fa-times{
 }
 .featureTwo,.featurePhoto{
     width: 33.3333333333%;
+    margin: 0 20px;
 }
 .featurePhoto{
     margin-left: 60px;
@@ -620,8 +621,8 @@ label.checkbtn i.fa-times{
     width: 25%; 
     padding: 15px;
 }
-.collectionPhoto{
-    max-width: 80%;
+.collectionPhoto img{
+    max-width: 100%;
 }
 .collectionText{
     margin-top: 25px;
@@ -659,6 +660,9 @@ label.checkbtn i.fa-times{
     border-color: #374048;
     color: #ffffff;
 }
+.allCollectionTablet{
+    display: none;
+}
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -672,7 +676,11 @@ label.checkbtn i.fa-times{
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
-
+@media(max-width:1175px){
+    .collectionPhoto img{
+        max-width: 95%;
+    }
+}
   /* Modal Content */
   .modal-content {
     background-color: #fefefe;
@@ -680,6 +688,25 @@ label.checkbtn i.fa-times{
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+  }
+  @media(max-width:982px){
+      .allCollection{
+         display: block;
+      }
+      .allCollectionTablet{
+          display: flex;
+          width: 100%;
+          justify-content: center;
+      }
+      .collectionPhoto{
+          text-align: center;
+      }    
+      .collectionPhoto img{
+        max-width: 100%;
+      }
+      .collectionOne{
+        width: 50%;
+      }
   }
 
   /* The Close Button */
