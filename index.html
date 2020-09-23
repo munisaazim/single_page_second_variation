@@ -325,11 +325,100 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
+    <!--Our Collection-->
+    <div class="collection">
+        <div class="collectionContainer">
+            <h1>OUR COLLECTION</h1>
+            <p>You are unique. You have unique style and you need a unique watch for you. Choose from our collection of
+                watches.</p>
+            <div class="allCollection">
+                <div class="collectionOne">
+                    <div class="collectionPhoto">
+                        <img src="image/collection-1.jpg" alt="">
+                    </div>
+                    <div class="collectionText">
+                        <h4>Watch Limited Edition</h4>
+                        <p>Stainless steel case</p>
+                        <h3>$399</h3>
+                        <button id="myBtn">Choose</button>
+                    </div>
+                </div>
+                <div class="collectionOne">
+                    <div class="collectionPhoto">
+                        <img src="image/collection-2.jpg" alt="">
+                    </div>
+                    <div class="collectionText">
+                        <h4>Watch Limited Edition</h4>
+                        <p>Stainless steel case</p>
+                        <h3>$399</h3>
+                        <button id="myBtn">Choose</button>
+                    </div>
+                </div>
+                <div class="collectionOne">
+                    <div class="collectionPhoto">
+                        <img src="image/collection-3.jpg" alt="">
+                    </div>
+                    <div class="collectionText">
+                        <h4>Watch Limited Edition</h4>
+                        <p>Stainless steel case</p>
+                        <h3>$399</h3>
+                        <button id="myBtn">Choose</button>
+                    </div>
+                </div>
+                <div class="collectionOne">
+                    <div class="collectionPhoto">
+                        <img src="image/collection-4.jpg." alt="">
+                    </div>
+                    <div class="collectionText">
+                        <h4>Watch Limited Edition</h4>
+                        <p>Stainless steel case</p>
+                        <h3>$399</h3>
+                        <button id="myBtn">Choose</button>
+                    </div>
+                </div>
+            </div>
+            <!--Module Content-->
+            <div class="module">
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>
