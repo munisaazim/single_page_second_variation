@@ -708,7 +708,43 @@ label.checkbtn i.fa-times{
         width: 50%;
       }
   }
-
+  @media(max-width:794px){
+      .allCollectionTablet{
+          flex-flow: column;
+      }
+      .collectionOne{
+          width: 100%;
+      }
+  }
+@media(max-width:772px){
+    .collectionContainer h1{
+        font-size: 45px;
+    }
+}
+@media(max-width:646px){
+    .collectionContainer h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:583px){
+    .collectionContainer h1{
+        font-size: 36px;
+    }
+}
+@media(max-width:532px){
+    .collectionContainer h1{
+        font-size: 35px;
+    }
+    .collectionContainer p.mainText{
+        font-size: 16px;
+    }
+}
+@media(max-width:519px){
+    .collectionContainer h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
   /* The Close Button */
   .close {
     color: #aaaaaa;
