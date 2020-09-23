@@ -578,4 +578,9 @@ label.checkbtn i.fa-times{
         width: auto;
         justify-content: center;
     }
+    @media(max-width:772px){
+        .benefitTwoContainer .featurePhoto img{
+            width: 70%;
+        }
+    }
 }
