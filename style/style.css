@@ -489,10 +489,14 @@ label.checkbtn i.fa-times{
 }
 @media(max-width:766px){
     .mainFeatures{
-        display: unset;
+        flex-flow: column;
     }
     .features{
         margin-top: 0px;
+        display: flex;
+        flex-flow: column;
+        width: auto;
+        justify-content: center;
     }
 }
 /*Benefit Two*/
@@ -526,6 +530,9 @@ label.checkbtn i.fa-times{
     margin-right: 20px;
     margin-top: 5px;
 }
+.mainFeatureTwoTablet{
+    display: none;
+}
 /*Responsive*/
 @media(max-width:982px){
     .mainFeatureTwo{
@@ -550,6 +557,25 @@ label.checkbtn i.fa-times{
     .featureTwo{
      width: 35%;
      margin: 0 35px;
-     
+    }
+}
+@media(max-width:794px){
+    .mainFeatureTwoTablet{
+        display: none;
+    }
+    .mainFeatureTwo{
+        display: flex;
+        flex-flow: column;
+    }
+    .benefitTwoContainer .featurePhoto{
+        order: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+   .benefitTwoContainer .featureTwo{
+        order: 2;
+        width: auto;
+        justify-content: center;
     }
 }
