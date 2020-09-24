@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
     <title>Landing Page</title>
 </head>
@@ -345,7 +346,10 @@
                         <p>Stainless steel case</p>
                         <h3>$400</h3>
                         <div class="collectionButton">
-                            <button id="myBtn">Choose</button>
+                        <button type="button" data-toggle="modal" data-target="#centralModalSm">
+                            Choose
+                          </button>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -362,7 +366,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+         
             <div class="allCollectionTablet">
                 <div class="collectionOne">
                     <div class="collectionPhoto">
@@ -391,47 +395,38 @@
                     </div>
                 </div>
             </div>
-            </div>
-            <!--Module Content-->
-            <div class="module">
-                <div id="myModal" class="modal">
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                        <span class="close">&times;</span>
-                        <p>Some text in the Modal..</p>
-                    </div>
-                </div>
+        </div>
             </div>
         </div>
-    </div>
-    <!--Modal-->
-    <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
+        <div class="modal " id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+      
+        <!-- Change class .modal-sm to change the size of the modal -->
+        <div class="modal-dialog modal-sm" role="document">
+      
+      
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title w-100" id="myModalLabel">Modal title</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Central Modal Small -->
+    <!-- Modal -->
 
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When the user clicks the button, open the modal 
-        btn.onclick = function () {
-            modal.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-
 </html>
