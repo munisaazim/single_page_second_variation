@@ -731,9 +731,6 @@ label.checkbtn i.fa-times{
     .modal-lg, .modal-xl {
         max-width: 900px;
     }
-    .modal{
-        top:80px;
-    }
 }
 .carousel-item img{
      text-align: center;
@@ -759,7 +756,7 @@ label.checkbtn i.fa-times{
 }
 .modal-body .text{
     width: 50%;
-    padding: 48px 37px 40px 35px;
+    padding: 48px 37px 10px 45px;
 }
 .modal-body .text h4{
     color: #848e96;
@@ -929,41 +926,59 @@ input[name=color]:checked+label[for=color-5]:before{
     border: 1px solid rgb(145, 155, 149);
     border-radius: 8px; 
 }
+.optionThree{
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding: 35px 0px 0px;
+}
+.optionThree h4.sizeTitle{
+    margin-left: 20px;
+    float: left;
+ 
+}
+.size{
+    float: left;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
 .size select {
-    background-color: #0563af;
-    color: white;
+    background-color: #ffffff;
+    color: #374048;
     padding: 12px;
-    width: 250px;
+    width: 80px;
     border: none;
     font-size: 20px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
     -webkit-appearance: none;
     appearance: none;
     outline: none;
+    text-align: center;
+    font: 600 16px/1 "Poppins",sans-serif;
+    text-transform: uppercase;
   }
   .size select::-ms-expand {
     display: none;
 }
   .size::before {
-    content: "\f13a";
+    content: "\f078";
     font-family: FontAwesome;
     position: relative;
-    left: 250px;
+    left: 80px;
     width: 20%;
     height: 100%;
     text-align: center;
-    font-size: 28px;
+    font-size: 17px;
     line-height: 45px;
-    color:red;
-    background-color: rgba(255, 255, 255, 0.1);
+    color:#96a1a9;
+    background-color: #ffffff;
     pointer-events: none;
   }
   
-  .size:hover::before {
+ /*  .size:hover::before {
     color: rgba(255, 255, 255, 0.6);
     background-color: rgba(255, 255, 255, 0.2);
-  }
-  
+  } */
   .size select option {
     padding: 30px;
   }
