@@ -748,6 +748,9 @@ label.checkbtn i.fa-times{
 .modal-body{
      display: flex;
 }
+.carousel-indicators li{
+    background-color: red;
+}
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }  
@@ -817,29 +820,122 @@ label.checkbtn i.fa-times{
     margin-right: 6px;
     margin-bottom: 0;
     background: #5c2eff;
-} */
-input[type='radio']:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
+} 
+content: '';
+width: 39px;
+height: 39px;
+display: block;
+position: relative;
+top: -6px;
+left: -6px;
+border: 0 solid;
+border-radius: 100%;
+background: #2eafff;
+border-color:red;
+
+*/
+input.color{
+    display: none;  
+    line-height: normal;
+    box-sizing: border-box;
+    padding: 0;
+}
+input.color2{
     position: relative;
-    background-color: #2eafff;;
-    content: '';
-    display: inline-block;
-    visibility: visible;
+    z-index: 1;
+    display: none;  
 }
 
-input[type='radio']:checked:after {
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    top: -2px;
-    left: -1px;
+/* .option input[name="color1"].color+label[for="color-2"]{
+    background: #5c2eff;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
     position: relative;
-    background-color: #ffa500;
+    margin-right: 6px;
+    margin-bottom: 0;
+}
+.option input[name="color1"].color + label[for="color-2"]:before{
     content: '';
-    display: inline-block;
-    visibility: visible;
+    width: 39px;
+    height: 39px;
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    border: 0 solid;
+    border-radius: 100%;
+   
+}
+.option input[name="color1"].color:checked+label[for="color-3"]:before{
+    border-width: 3px;
+    border-color: #ff2e99;
+    
+}   
+.option input[name="color"].color2+label[for="color-3"]{
+    background: #5c2eff;
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    position: relative;
+    margin-right: 6px;
+    margin-bottom: 0;
+}
+.option input[name="color"].color2 + label[for="color-3"]:before{
+    content: '';
+    width: 39px;
+    height: 39px;
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    border: 0 solid;
+    border-radius: 100%;
+   
+}
+.option input[name="color"].color2:checked+label[for="color-3"]:before{
+    border-width: 3px;
+    border-color: #ff2e99;
+    
+}    */
+
+input[name=color]+label:before{
+    content: '';
+    width: 39px;
+    height: 39px;
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    border: 0 solid;
+    border-radius: 100%;
+}
+input[name=color]+label{
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    position: relative;
+    margin-right: 6px;
+    margin-bottom: 0;
+}
+input[name=color]+label[for=color-1]{
+    background: red;
+    margin-left: 4px;
+}
+input[name=color]+label[for=color-1]:before{
+    border-color: #ff2e99;
+}
+input[name=color]:checked+label[for=color-1]:before{
+    border-width: 3px;
+}
+input[name=color]+label[for=color-2]{
+    background:#5c2eff;; 
+ 
+}
+input[name=color]+label[for=color-2]:before{
+    border-color: #5c2eff;;
+  
+}
+input[name=color]:checked+label[for=color-2]:before{
+    border-width: 3px;
 }
