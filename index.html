@@ -10,6 +10,7 @@
     </script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="src/jquery.nice-number.css">>
     <title>Landing Page</title>
 </head>
 
@@ -346,10 +347,10 @@
                         <p>Stainless steel case</p>
                         <h3>$400</h3>
                         <div class="collectionButton">
-                        <button type="button" data-toggle="modal" data-target="#centralModalSm">
-                            Choose
-                          </button>
-                          </div>
+                            <button type="button" data-toggle="modal" data-target="#centralModalSm">
+                                Choose
+                              </button>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -365,7 +366,7 @@
                             <button type="button" data-toggle="modal" data-target="#centralModalSm">
                                 Choose
                               </button>
-                              </div>
+                        </div>
                     </div>
                 </div>
          
@@ -446,7 +447,7 @@
                     <p class="description">8mm Silver Aluminum Case with Blue Sport Band. Its perfect fit for tracking fitness. 100% waterproof. Buy this limted edition sports edition.</p>
                     <div class="chooseOptions">
                         <div class="option">
-                        <h4>Choose a color</h4>
+                        <h4 class="title">Choose a color</h4>
                         <div class=" m0 colors">
                         <input type="radio" name="color" class="color" value="Violet" id="color-1">
                         <label for="color-1"></label>
@@ -460,12 +461,12 @@
                         <label for="color-5"></label>
                         </div>
                         </div>
-<!--                         <div class="option">
-                        <h4 class="form-label">Qty</h4>
-                        <div class="input-group bootstrap-touchspin"><span class="input-group-addon bootstrap-touchspin-prefix" style="display: none;"></span><input type="text" value="1" name="Quantity" class="quanity form-control" style="display: block;"><span class="input-group-addon bootstrap-touchspin-postfix" style="display: none;"></span><span class="input-group-btn-vertical"><button class="btn btn-default bootstrap-touchspin-up" type="button"><i class="glyphicon glyphicon-plus"></i></button><button class="btn btn-default bootstrap-touchspin-down" type="button"><i class="glyphicon glyphicon-minus"></i></button></span></div>
+                        <div class="optionTwo">
+                        <h4 class="title">Qty</h4>
+                         <input type="number" name="" id="" value="1" min="1" class="number">
                         </div>
-                        <div class="option">
-                        <h4 class="form-label">Size</h4>
+<!--                         <div class="option">
+                        <h4 class="title">Size</h4>
                         <div class="btn-group bootstrap-select">
                             <button type="button" class="btn dropdown-toggle btn-default" data-toggle="dropdown" title="M">
                                 <span class="filter-option pull-left">M</span>&nbsp;
@@ -502,7 +503,6 @@
                         </div>
                         </div> -->
                     </div>
-                  </div>
             </div>
           </div>
         </div>
@@ -513,5 +513,15 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./src/jquery.nice-number.js"></script>
+    <script>
+        $(function(){
+
+$('input[type="number"]').niceNumber();
+
+});
+    </script>
 </body>
 </html>

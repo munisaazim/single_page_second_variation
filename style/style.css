@@ -627,7 +627,7 @@ label.checkbtn i.fa-times{
 .collectionText h4{
     color:  #ff1900;
     text-align: center;
-    font-weight: 600;
+    font: 500 16px/1 "Poppins",sans-serif;
 }
 .collectionText p{
     font-size: 13px;
@@ -765,12 +765,14 @@ label.checkbtn i.fa-times{
     color: #848e96;
     font-weight: 400;
     font-size: 20px;
+    text-transform: uppercase;
 }
 .modal-body .text h2.name{
     color: #374048;
     font-weight: 700;
     font-size:30px;
     margin: 0 0 20px;
+    text-transform: uppercase;
 }
 .modal-body .text p.model{
     color: #a8afb5;
@@ -809,31 +811,11 @@ label.checkbtn i.fa-times{
     display: flex;
     margin-top: 40px;
 }
-/* .chooseOptions input{
-    display: none;
+.modal-body .text h4.title{
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    font: 500 16px/1 "Poppins",sans-serif;
 }
-.colorOne{
-    width: 27px;
-    height: 27px;
-    border-radius: 100%;
-    position: relative;
-    margin-right: 6px;
-    margin-bottom: 0;
-    background: #5c2eff;
-} 
-content: '';
-width: 39px;
-height: 39px;
-display: block;
-position: relative;
-top: -6px;
-left: -6px;
-border: 0 solid;
-border-radius: 100%;
-background: #2eafff;
-border-color:red;
-
-*/
 input.color{
     display: none;  
     line-height: normal;
@@ -845,59 +827,6 @@ input.color2{
     z-index: 1;
     display: none;  
 }
-
-/* .option input[name="color1"].color+label[for="color-2"]{
-    background: #5c2eff;
-    width: 27px;
-    height: 27px;
-    border-radius: 100%;
-    position: relative;
-    margin-right: 6px;
-    margin-bottom: 0;
-}
-.option input[name="color1"].color + label[for="color-2"]:before{
-    content: '';
-    width: 39px;
-    height: 39px;
-    display: block;
-    position: absolute;
-    top: -6px;
-    left: -6px;
-    border: 0 solid;
-    border-radius: 100%;
-   
-}
-.option input[name="color1"].color:checked+label[for="color-3"]:before{
-    border-width: 3px;
-    border-color: #ff2e99;
-    
-}   
-.option input[name="color"].color2+label[for="color-3"]{
-    background: #5c2eff;
-    width: 27px;
-    height: 27px;
-    border-radius: 100%;
-    position: relative;
-    margin-right: 6px;
-    margin-bottom: 0;
-}
-.option input[name="color"].color2 + label[for="color-3"]:before{
-    content: '';
-    width: 39px;
-    height: 39px;
-    display: block;
-    position: absolute;
-    top: -6px;
-    left: -6px;
-    border: 0 solid;
-    border-radius: 100%;
-   
-}
-.option input[name="color"].color2:checked+label[for="color-3"]:before{
-    border-width: 3px;
-    border-color: #ff2e99;
-    
-}    */
 
 input[name=color]+label:before{
     content: '';
@@ -968,4 +897,18 @@ input[name=color]+label[for=color-5]:before{
 }
 input[name=color]:checked+label[for=color-5]:before{
     border-width: 3px;
+}
+/*TouchSpin*/
+.optionTwo{
+    width: 86px;;
+}
+.optionTwo input.number{
+    width: 45px;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 3px;
+}
+.optionTwo input.number:hover{
+   background: goldenrod;
+    color: #ffffff;
 }
