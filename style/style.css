@@ -903,12 +903,17 @@ input[name=color]:checked+label[for=color-5]:before{
     width: 86px;;
 }
 .optionTwo input.number{
-    width: 45px;
+    width: 40px;
     font-size: 20px;
-    margin: 0 10px;
+  /*   margin: 0 10px; */
     padding: 3px;
 }
 .optionTwo input.number:hover{
    background: goldenrod;
     color: #ffffff;
+}
+.nice-number button{
+    background-color: #eee;
+    width: 20px;
+    border: 1px solid rgb(145, 155, 149);
 }
