@@ -815,6 +815,10 @@ label.checkbtn i.fa-times{
     text-transform: uppercase;
     margin: 0 0 12px;
     font: 500 16px/1 "Poppins",sans-serif;
+    text-align: center;
+}
+.colors{
+    margin-top: 18px;
 }
 input.color{
     display: none;  
@@ -900,10 +904,12 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 /*TouchSpin*/
 .optionTwo{
-    width: 86px;;
+    width: 86px;
+    margin-left: 20px;
 }
 .optionTwo input.number{
-    width: 40px;
+/*     width: 39px; */
+   /*  width:27px; */
     font-size: 20px;
   /*   margin: 0 10px; */
     padding: 3px;
@@ -918,7 +924,46 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 .nice-number button{
     background-color: #eee;
-    width: 30px;
+   /*  width: 30px; */
+    width: 27px; 
     border: 1px solid rgb(145, 155, 149);
     border-radius: 8px; 
 }
+.size select {
+    background-color: #0563af;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+  }
+  .size select::-ms-expand {
+    display: none;
+}
+  .size::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: relative;
+    left: 250px;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color:red;
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .size:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .size select option {
+    padding: 30px;
+  }
