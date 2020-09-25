@@ -919,23 +919,53 @@ input[name=color]+label{
     margin-bottom: 0;
 }
 input[name=color]+label[for=color-1]{
-    background: red;
+    background: #2eafff;
     margin-left: 4px;
 }
 input[name=color]+label[for=color-1]:before{
-    border-color: #ff2e99;
+    border-color:#2eafff;
 }
 input[name=color]:checked+label[for=color-1]:before{
     border-width: 3px;
 }
 input[name=color]+label[for=color-2]{
-    background:#5c2eff;; 
+    background:#5c2eff; 
  
 }
 input[name=color]+label[for=color-2]:before{
-    border-color: #5c2eff;;
+    border-color: #5c2eff;
   
 }
 input[name=color]:checked+label[for=color-2]:before{
+    border-width: 3px;
+}
+input[name=color]+label[for=color-3]{
+    background: #ff2e99;
+    margin-left: 4px;
+}
+input[name=color]+label[for=color-3]:before{
+    border-color: #ff2e99;
+}
+input[name=color]:checked+label[for=color-3]:before{
+    border-width: 3px;
+}
+input[name=color]+label[for=color-4]{
+    background: #ffe62e;
+    margin-left:4px;  
+}
+input[name=color]+label[for=color-4]:before{
+    border-color: #ffe62e;
+}
+input[name=color]:checked+label[for=color-4]:before{
+    border-width: 3px;
+}
+input[name=color]+label[for=color-5]{
+    background:#2effa1;
+    margin-left:4px;  
+}
+input[name=color]+label[for=color-5]:before{
+    border-color:#2effa1;
+}
+input[name=color]:checked+label[for=color-5]:before{
     border-width: 3px;
 }
