@@ -956,11 +956,11 @@ input[name=color]:checked+label[for=color-5]:before{
     text-align: center;
     font: 600 16px/1 "Poppins",sans-serif;
     text-transform: uppercase;
-  }
-  .size select::-ms-expand {
+ }
+.size select::-ms-expand {
     display: none;
 }
-  .size::before {
+.size::before {
     content: "\f078";
     font-family: FontAwesome;
     position: relative;
@@ -973,12 +973,16 @@ input[name=color]:checked+label[for=color-5]:before{
     color:#96a1a9;
     background-color: #ffffff;
     pointer-events: none;
-  }
-  
- /*  .size:hover::before {
-    color: rgba(255, 255, 255, 0.6);
-    background-color: rgba(255, 255, 255, 0.2);
-  } */
-  .size select option {
+}
+.size select option {
     padding: 30px;
-  }
+}
+.modal-footer
+{
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+    float: right;
+    margin-right:49px; 
+
+}
