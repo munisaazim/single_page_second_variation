@@ -1174,21 +1174,20 @@ input[name=color]:checked+label[for=color-5]:before{
 .split{
     display: flex;
 }
-.splitImage{
-    width: 60%;
-}
 .splitImage img{
     width: 100%;
 }
 .splitText{
    /*  padding: 0px 40px; */
-    width: 40%;
+/*     width: 40%; */
     margin-left: 37px;
-    margin-right: 40px;
+    margin-right: 37px;
     display: flex;
     flex-flow: column;
     justify-content: center;
     margin-top: 50px;
+    width: 540px;
+    /* max-width: 100%; */
 }
 .splitText h3{
     font-weight: 700;
@@ -1211,11 +1210,25 @@ input[name=color]:checked+label[for=color-5]:before{
     font-size: 24px;
     }
     .splitText p{
-        font-size: 15px;
+        font-size: 14px;
+        line-height: 26px;
     }
 }
 @media(max-width:936px){
     .splitText{
         margin-top: 30px;
+    }
+}
+@media(max-width:898px){
+    .splitText{
+        margin-top: 20px;
+    }
+}
+@media(max-width:794px){
+    .split{
+        flex-flow: column;
+    }
+    .splitImage{
+        width: 100%;
     }
 }
