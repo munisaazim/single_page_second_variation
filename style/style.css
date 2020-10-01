@@ -1169,6 +1169,7 @@ input[name=color]:checked+label[for=color-5]:before{
 /*Split*/
 .split{
     display: flex;
+/*     justify-content: center; */
 }
 .splitText, .splitImage{
     width: 50%;
@@ -1176,7 +1177,7 @@ input[name=color]:checked+label[for=color-5]:before{
 .splitImage img{
     width: 100%;
 }
-.text{
+.splitText .text{
    /*  padding: 0px 40px; */
 /*     width: 40%; */
     margin-left: 37px;
@@ -1184,7 +1185,9 @@ input[name=color]:checked+label[for=color-5]:before{
     display: flex;
     flex-flow: column;
     justify-content: center;
-    margin-top: 50px;
+    align-items: center;
+    position: relative;
+    height: 100% ;
     width: 90%;
     /* max-width: 100%; */
 }
@@ -1199,10 +1202,11 @@ input[name=color]:checked+label[for=color-5]:before{
     font-size: 18px;
     line-height: 32px;
 }
+/*Resposiveness*/
 @media (max-width: 1064px){
-    .splitText .text{
+/*     .splitText .text{
         margin-top: 10px;
-    }
+    } */
     .splitText .text h3  {
     margin-top: 0;
     margin-bottom: 15px;
@@ -1254,16 +1258,63 @@ input[name=color]:checked+label[for=color-5]:before{
   /*   margin-left: 30px; */
 } 
 .splitTextTwo .text{
-    margin-left: 37px;
-    margin-right: 100px;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    margin-top: 50px;
-    width: 540px;
-}
+    /*  padding: 0px 40px; */
+ /*     width: 40%; */
+     margin-left: 37px;
+     margin-right: 37px;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     height: 100% ;
+     width: 90%;
+     margin-top: 25px;
+     /* max-width: 100%; */
+ }
 .splitTextTwo .text h3{
     font-weight: 700;
     color: #374048;
     font-size: 33px;
 }
+ .splitTextTwo .text h3{
+     font-weight: 700;
+     color: #374048;
+     font-size: 33px;
+ }
+ .splitTextTwo .text p{
+     color: #c0cad0;
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 32px;
+ }
+ /*Responsiveness*/
+ @media (max-width: 1064px){
+        .splitTextTwo .text{
+            margin-top: 25px;
+        }
+        .splitTextTwo .text h3  {
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 24px;
+        }
+        .splitTextTwo .text p{
+            font-size: 14px;
+            line-height: 26px;
+            max-width: 710px;
+        }
+    }
+    @media(max-width:794px){
+        .splitImageTwo{
+            width: 100%;
+        }
+        .splitImage img{
+            width: 100%;
+        }
+        .splitTextTwo{
+            display: block;
+            width: 90%;
+            margin: 0 15px;
+            margin-top: 30px;
+        }
+    }
