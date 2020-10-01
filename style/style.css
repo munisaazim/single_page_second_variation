@@ -1004,3 +1004,30 @@ input[name=color]:checked+label[for=color-5]:before{
         flex-flow: column;
     }
 }
+@media(max-width:794px){
+    .modal-body{
+        flex-flow: column;
+    }
+    .w-50 {
+        width: 100%!important;
+    }
+    .modal-body .text {
+        width: 100%;
+    }
+    .carousel-item img {
+        max-width: 40%;
+    }
+    .colors {
+        text-align: center;
+    }
+    .optionTwo {
+        width: auto;
+        margin-top: 30px;
+    }
+    .responsive{
+        text-align: center;
+    }
+    .size, .optionThree h4.sizeTitle {
+        float: none;
+    }
+}
