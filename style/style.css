@@ -1174,10 +1174,13 @@ input[name=color]:checked+label[for=color-5]:before{
 .split{
     display: flex;
 }
+.splitText, .splitImage{
+    width: 50%;
+}
 .splitImage img{
     width: 100%;
 }
-.splitText{
+.text{
    /*  padding: 0px 40px; */
 /*     width: 40%; */
     margin-left: 37px;
@@ -1186,32 +1189,33 @@ input[name=color]:checked+label[for=color-5]:before{
     flex-flow: column;
     justify-content: center;
     margin-top: 50px;
-    width: 540px;
+    width: 90%;
     /* max-width: 100%; */
 }
-.splitText h3{
+.splitText .text h3{
     font-weight: 700;
     color: #374048;
     font-size: 33px;
 }
-.splitText p{
+.splitText .text p{
     color: #c0cad0;
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
 }
 @media (max-width: 1064px){
-    .splitText{
-        margin-top: 50px;
+    .splitText .text{
+        margin-top: 10px;
     }
-    .splitText h3 {
+    .splitText .text h3  {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 24px;
     }
-    .splitText p{
+    .splitText .text p{
         font-size: 14px;
         line-height: 26px;
+        max-width: 710px;
     }
 }
 @media(max-width:936px){
@@ -1242,9 +1246,28 @@ input[name=color]:checked+label[for=color-5]:before{
     }
 }
 /*Split Two*/
-.splitTextTwo {
-    width: 56.3%;
+ .splitTextTwo {
+    width: 50%;
+} 
+  .splitImageTwo{
+      width: 50%;
+  /*     margin-left: 30px; */
+} 
+.splitImageTwo img{
+    width: 100%;
+  /*   margin-left: 30px; */
+} 
+.splitTextTwo .text{
+    margin-left: 37px;
+    margin-right: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 50px;
+    width: 540px;
 }
-.splitImageTwo{
-    width: 43.7%;
+.splitTextTwo .text h3{
+    font-weight: 700;
+    color: #374048;
+    font-size: 33px;
 }
