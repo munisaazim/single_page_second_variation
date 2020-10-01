@@ -1073,3 +1073,14 @@ input[name=color]:checked+label[for=color-5]:before{
         padding: 10px 1px;
     }
 }
+/*The watch*/
+.Thewatch{
+    background: #F8FBFD;
+    padding-top: 80px;
+}
+.watchContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-bottom: 100px;
+}
