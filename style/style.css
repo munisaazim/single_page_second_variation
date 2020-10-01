@@ -1084,3 +1084,18 @@ input[name=color]:checked+label[for=color-5]:before{
     padding: 0 40px;
     padding-bottom: 100px;
 }
+.watch{
+    display: flex;
+    justify-content: center;
+}
+.textWatch{
+    width: 50%;
+    margin-right: 9em;
+    margin-top: 60px;
+}
+.textWatch h1{
+    
+}
+.textWatch p{
+    max-width: 710px;
+}
