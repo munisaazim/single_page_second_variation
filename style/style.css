@@ -56,6 +56,7 @@ label.checkbtn i.fa-times{
     position: sticky;
     top: 0;
     background: #ffffff;
+    z-index: 1;
   }
   
   .sticky + .content {
@@ -1375,6 +1376,44 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 .reviewCol img{
     opacity: .5;
+}
+/*Responsive Reviews*/
+@media(max-width:794px){
+    .allreviews{
+        flex-flow: column;
+    }
+    .allCompanyReviews {
+        margin-top: 40px;
+    }
+}
+@media(max-width:772px){
+    .reviewContainer h1{
+        font-size: 45px;
+    }
+}
+@media(max-width:646px){
+    .reviewContainer h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:583px){
+    .reviewContainer h1{
+        font-size: 36px;
+    }
+    .reviewContainer p.text{
+        font-size: 16px;
+    }
+}
+@media(max-width:532px){
+    .reviewContainer h1{
+        font-size: 35px;
+    }
+ 
+}
+@media(max-width:519px){
+    .reviewContainer h1{
+        font-size: 30px;
+    }
 }
 .allCompanyReviews{
     margin-top: 60px;
