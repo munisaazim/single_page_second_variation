@@ -1328,3 +1328,30 @@ input[name=color]:checked+label[for=color-5]:before{
          
         }
     }
+/*Review*/
+.reviews{
+    background: #F8FBFD;
+    padding-top: 100px;
+}
+.reviewContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+    padding-bottom: 100px;
+}
+.reviewContainer h1{
+    text-align: center;
+    font-size: 48px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #374048;
+    margin-bottom: 30px;
+}
+.reviewContainer p.text{
+    color: #969da3;
+    font-size: 20px;
+    max-width: 710px;
+    margin: 0 auto 20px;
+    font-weight: 300;
+    text-align: center;
+}
