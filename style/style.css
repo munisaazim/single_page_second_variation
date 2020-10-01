@@ -1188,9 +1188,34 @@ input[name=color]:checked+label[for=color-5]:before{
     display: flex;
     flex-flow: column;
     justify-content: center;
+    margin-top: 50px;
 }
 .splitText h3{
     font-weight: 700;
     color: #374048;
     font-size: 33px;
+}
+.splitText p{
+    color: #c0cad0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+}
+@media (max-width: 1064px){
+    .splitText{
+        margin-top: 50px;
+    }
+    .splitText h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+    }
+    .splitText p{
+        font-size: 15px;
+    }
+}
+@media(max-width:936px){
+    .splitText{
+        margin-top: 30px;
+    }
 }
