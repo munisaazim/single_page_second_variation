@@ -1094,8 +1094,21 @@ input[name=color]:checked+label[for=color-5]:before{
     margin-top: 60px;
 }
 .textWatch h1{
-    
+    font-size: 48px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #374048;
 }
+.textWatch p.firstText{
+    margin-top: 30px;
+    margin-bottom: 40px;
+ }
 .textWatch p{
     max-width: 710px;
+    font-size: 20px;
+    font-weight: 300;
+    color:#969da3;
+}
+.textWatch p i{
+    color: #55C44C;
 }
