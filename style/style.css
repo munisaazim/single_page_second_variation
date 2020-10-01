@@ -671,7 +671,6 @@ label.checkbtn i.fa-times{
         max-width: 95%;
     }
 }
-
   @media(max-width:982px){
       .allCollection{
          display: block;
@@ -1087,6 +1086,7 @@ input[name=color]:checked+label[for=color-5]:before{
 .watch{
     display: flex;
     justify-content: center;
+    padding: 0 40px;
 }
 .textWatch{
     width: 50%;
@@ -1113,4 +1113,19 @@ input[name=color]:checked+label[for=color-5]:before{
     color: #55C44C;
     margin-right: 15px;
     font-size: 25px;
+}
+/*Responsiveness*/
+@media(max-width:982px){
+    .watch{
+        flex-flow: column-reverse;
+    }
+    .textWatch, .imgWatch{
+        width: 100%;
+    }
+    .textWatch{
+        margin-top: 70px;
+    }
+    .imgWatch{
+        text-align: center;
+    }
 }
