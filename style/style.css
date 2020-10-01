@@ -1128,4 +1128,41 @@ input[name=color]:checked+label[for=color-5]:before{
     .imgWatch{
         text-align: center;
     }
+    @media(max-width:772px){
+        .textWatch h1{
+            font-size: 45px;
+        }
+    }
+    @media(max-width:646px){
+        .textWatch h1{
+            font-size: 40px;
+        }
+    }
+    @media(max-width:583px){
+        .textWatch h1{
+            font-size: 36px;
+        }
+        .textWatch p{
+            font-size: 15px;
+        }
+        .imgWatch img{
+            max-width: 80%;
+        }
+    }
+    @media(max-width:532px){
+        .textWatch h1{
+            font-size: 35px;
+        }
+        .textWatch p{
+            font-size: 16px;
+        }
+    }
+    @media(max-width:519px){
+        .textWatch h1{
+            font-size: 30px;
+        }
+        .textWatch p{
+            font-size: 13px;
+        }
+    }
 }
