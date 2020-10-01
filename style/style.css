@@ -985,9 +985,6 @@ input[name=color]:checked+label[for=color-5]:before{
     float: right;
     margin-right:49px; 
 }
-.footerModal{
-    margin-top: 0px;
-}
 .modal-footer button{
     background-color: #FF1900;
     color: #ffffff;
