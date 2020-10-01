@@ -1366,7 +1366,7 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 .reviewCol p{
     color:   #353535;;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
     margin-bottom: 35px;
 }
