@@ -1241,3 +1241,10 @@ input[name=color]:checked+label[for=color-5]:before{
         margin-top: 30px;
     }
 }
+/*Split Two*/
+.splitTextTwo {
+    width: 56.3%;
+}
+.splitImageTwo{
+    width: 43.7%;
+}
