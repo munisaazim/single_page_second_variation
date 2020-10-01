@@ -1376,3 +1376,23 @@ input[name=color]:checked+label[for=color-5]:before{
 .reviewCol img{
     opacity: .5;
 }
+.allCompanyReviews{
+    margin-top: 60px;
+    max-width: 1280px;
+}
+.allCompanyReviews h4{
+    text-align: center;
+    color: #374048;
+    font-size: 22px;
+    font-weight: 500;
+}
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.companies img{
+    opacity: 0.5;
+    margin: 10px;
+}
