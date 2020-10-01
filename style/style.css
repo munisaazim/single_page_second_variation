@@ -80,22 +80,25 @@ label.checkbtn i.fa-times{
         font-size:25px;
         margin-right: 60px;
         color:black;
-        float: right;
+       /*  float: right; */
         line-height: 80px;
     }
-   .navbar ul{
-        position: fixed; 
-        width: 100%;
+
+    .navbar ul {
+        position: fixed;
+        width: 40%;
         text-align: center;
         transition: all 0.5s;
         top: -150%;
-       /*  left: -100%; */
+        /* left: -100%; */
         text-align: center;
         background: #ffffff;
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
     }
+
     .navbar ul li{
         display: block;
         margin: 10px 0;
@@ -106,17 +109,17 @@ label.checkbtn i.fa-times{
     }
     #check:checked~ul{
         /* left: 0; */
-        top: 80px;
+        top: 110px;
     }
     #check:checked~label.checkbtn i.fa-bars{
         display: none;
     }
-    #check:checked ~label.checkbtn i.fa-times{
+    #check:checked ~label.checkbtn i.fa-times {
         display: block;
-        font-size:25px;
+        font-size: 25px;
         margin-right: 60px;
-        color:black;
-        float: right;
+        color: black;
+        /* float: right; */
         line-height: 80px;
     }
     .navbar ul li a{
