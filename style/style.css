@@ -1231,4 +1231,13 @@ input[name=color]:checked+label[for=color-5]:before{
     .splitImage{
         width: 100%;
     }
+    .splitImage img{
+        width: 100%;
+    }
+    .splitText{
+        display: block;
+        width: 90%;
+        margin: 0 15px;
+        margin-top: 30px;
+    }
 }
