@@ -985,6 +985,26 @@ input[name=color]:checked+label[for=color-5]:before{
     float: right;
     margin-right:49px; 
 }
+.footerModal{
+    margin-top: 30px;
+
+}
+.modal-footer button{
+    background-color: #FF1900;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 15px 25px;
+    border: none;
+    width: 100%;
+}
+.modal-footer button:hover{
+    background-color: rgb(55, 64, 72);
+}
+.footerModal{
+    margin-bottom: 40px;
+}
 /*Resposiveness of model*/
 @media(max-width:999px){
    /*  #photo{
@@ -1002,6 +1022,13 @@ input[name=color]:checked+label[for=color-5]:before{
     }
     .chooseOptions{
         flex-flow: column;
+    }
+    .optionTwo{
+        margin-top: 30px;
+    }
+    .modal-footer button{
+        font-size: 21px;
+        padding: 10px 1px;
     }
 }
 @media(max-width:794px){
@@ -1022,12 +1049,25 @@ input[name=color]:checked+label[for=color-5]:before{
     }
     .optionTwo {
         width: auto;
-        margin-top: 30px;
     }
-    .responsive{
+    .responsive, .optionThree h4.sizeTitle {
         text-align: center;
     }
     .size, .optionThree h4.sizeTitle {
         float: none;
+    }
+    .modal-footer button{
+        font-size: 25px;
+        padding: 15px 25px;     
+    }
+    .modal-footer{
+        float: none;
+        width: 100%;
+    }
+}
+@media(max-width:284px){
+    .modal-footer button{
+        font-size: 21px;
+        padding: 10px 1px;
     }
 }
