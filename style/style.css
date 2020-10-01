@@ -1022,6 +1022,9 @@ input[name=color]:checked+label[for=color-5]:before{
     .optionTwo{
         margin-top: 30px;
     }
+    .modal-footer {
+        border-top: none;
+    }
     .modal-footer button{
         font-size: 21px;
         padding: 10px 1px;
