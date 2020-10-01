@@ -984,5 +984,23 @@ input[name=color]:checked+label[for=color-5]:before{
     width: 40%;
     float: right;
     margin-right:49px; 
-
+}
+/*Resposiveness of model*/
+@media(max-width:999px){
+   /*  #photo{
+        max-width: 80%;
+    } */
+    .carousel-item img{
+        max-width: 90%;
+    }
+    .control-prev {
+        position: absolute;
+        top: -110px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .chooseOptions{
+        flex-flow: column;
+    }
 }
