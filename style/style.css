@@ -1246,6 +1246,9 @@ input[name=color]:checked+label[for=color-5]:before{
     }
 }
 /*Split Two*/
+.splitTwo{
+    display: flex;
+}
  .splitTextTwo {
     width: 50%;
 } 
@@ -1305,6 +1308,9 @@ input[name=color]:checked+label[for=color-5]:before{
         }
     }
     @media(max-width:794px){
+        .splitTwo{
+            flex-flow: column-reverse;
+        }
         .splitImageTwo{
             width: 100%;
         }
@@ -1312,9 +1318,13 @@ input[name=color]:checked+label[for=color-5]:before{
             width: 100%;
         }
         .splitTextTwo{
-            display: block;
-            width: 90%;
+            width: 100%;
+        }
+        .splitTextTwo .text{
+           justify-content: flex-start;
+           align-items: flex-start;
             margin: 0 15px;
             margin-top: 30px;
+         
         }
     }
