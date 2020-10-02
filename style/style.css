@@ -1562,10 +1562,12 @@ input[name=color]:checked+label[for=color-5]:before{
     display: flex;
     border-top: 2px solid #f4f5f6;
     justify-content: center;
+    width: 100%;
 }
 .column{
     padding: 35px 15px;
-    margin: 0 50px;
+    margin: 0 30px;
+    width: 33.3333333333%;
 }
 .column h4{
     color: #374048;
@@ -1576,6 +1578,6 @@ input[name=color]:checked+label[for=color-5]:before{
     color: #82898f;
     font-weight: 300;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 17px;
     max-width: 710px;
 }
