@@ -1539,6 +1539,24 @@ input[name=color]:checked+label[for=color-5]:before{
     padding: 0 40px;
     margin: 0 auto;
 }
+.specContainer h1{
+    text-align: center;
+    font-size: 48px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #374048;
+    margin-bottom: 30px; 
+    text-transform: uppercase;
+    margin: 0 0 25px;
+}
+.specContainer p.text{
+    color: #969da3;
+    font-size: 20px;
+    max-width: 710px;
+    margin: 0 auto 20px;
+    font-weight: 300;
+    text-align: center;
+}
 .spec .columnOne{
     display: flex;
 }
