@@ -1435,6 +1435,7 @@ input[name=color]:checked+label[for=color-5]:before{
     opacity: 0.5;
     margin: 10px;
 }
+/*FAQ*/
 .faq{
     padding-top: 100px;
 }
@@ -1528,4 +1529,16 @@ input[name=color]:checked+label[for=color-5]:before{
     .faqContainer h1{
         font-size: 30px;
     }
+}
+/*Tech Spec*/
+.spec{
+    padding-top: 100px;
+}
+.specContainer{
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.spec .columnOne{
+    display: flex;
 }
