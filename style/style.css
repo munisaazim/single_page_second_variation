@@ -1492,3 +1492,40 @@ input[name=color]:checked+label[for=color-5]:before{
     line-height: 25px;
     max-width: 710px;
 }
+/*Responsiveness*/
+@media(max-width:794px){
+    .questionOne{
+        flex-flow: column;
+    }
+    .questionOne.secondChild{
+        margin-top: 0px;
+    }
+}
+@media(max-width:772px){
+    .faqContainer h1{
+        font-size: 45px;
+    }
+}
+@media(max-width:646px){
+    .faqContainer h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:583px){
+    .faqContainer h1{
+        font-size: 36px;
+    }
+}
+@media(max-width:532px){
+    .faqContainer h1{
+        font-size: 35px;
+    }
+    .faqContainer p.text,.faqContainer p.text a{
+        font-size: 17px;
+    }
+}
+@media(max-width:519px){
+    .faqContainer h1{
+        font-size: 30px;
+    }
+}
