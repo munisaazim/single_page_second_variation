@@ -1435,3 +1435,36 @@ input[name=color]:checked+label[for=color-5]:before{
     opacity: 0.5;
     margin: 10px;
 }
+.faq{
+    padding-top: 100px;
+}
+.faqContainer{
+    max-width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+.faqContainer h1{
+    text-align: center;
+    font-size: 48px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #374048;
+    margin-bottom: 30px; 
+    text-transform: uppercase;
+    margin: 0 0 25px;
+}
+.faqContainer p.text{
+    color: #969da3;
+    font-size: 20px;
+    max-width: 710px;
+    margin: 0 auto 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.faqContainer p a{
+    text-decoration: none;
+    color: #9300ff;
+}
+.faqContainer p a:hover{
+        color: #3b0066;
+}
