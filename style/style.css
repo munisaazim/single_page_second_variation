@@ -1564,6 +1564,9 @@ input[name=color]:checked+label[for=color-5]:before{
     justify-content: center;
     width: 100%;
 }
+.spec .columnOne.lastColumnOne{
+    border-bottom: 2px solid #f4f5f6;
+}
 .column{
     padding: 35px 15px;
     margin: 0 30px;
@@ -1580,4 +1583,25 @@ input[name=color]:checked+label[for=color-5]:before{
     font-size: 15px;
     line-height: 17px;
     max-width: 710px;
+}
+/*Responsive*/
+@media(max-width:982px){
+    .spec .columnOne{
+    flex-flow: column;
+    border: none;
+}
+.spec .columnOne.lastColumnOne{
+    border: none;
+}
+.spec .columnOne .column.lastColumn{
+    border-bottom: 2px solid #f4f5f6;
+}
+.column{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #f4f5f6;
+}
 }
