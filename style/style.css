@@ -1468,3 +1468,27 @@ input[name=color]:checked+label[for=color-5]:before{
 .faqContainer p a:hover{
         color: #3b0066;
 }
+.questions{
+    margin-top: 60px;
+}
+.questionOne{
+    display: flex;
+}
+.questionOne.secondChild{
+    margin-top: 50px;
+}
+.numberOne{
+    margin: 0 15px;
+}
+.numberOne h4{
+    color: #374048;
+    font-size: 22px;
+    font-weight: 500;
+}
+.numberOne p{
+    color: #82898f;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 710px;
+}
