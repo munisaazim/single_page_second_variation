@@ -1532,7 +1532,7 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 /*Tech Spec*/
 .spec{
-    padding-top: 100px;
+    padding-top: 2ы00px;
 }
 .specContainer{
     max-width: 1280px;
