@@ -1589,6 +1589,7 @@ input[name=color]:checked+label[for=color-5]:before{
     .spec .columnOne{
     flex-flow: column;
     border: none;
+    width: 100%;
 }
 .spec .columnOne.lastColumnOne{
     border: none;
@@ -1597,11 +1598,31 @@ input[name=color]:checked+label[for=color-5]:before{
     border-bottom: 2px solid #f4f5f6;
 }
 .column{
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
     border-top: 2px solid #f4f5f6;
+    text-align: center;
+    width: auto;
 }
+}
+@media(max-width:646px){
+    .specContainer h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:583px){
+    .specContainer h1{
+        font-size: 36px;
+    }
+}
+@media(max-width:532px){
+    .specContainer h1{
+        font-size: 35px;
+    }
+    .specContainer p.text{
+        font-size: 17px;
+    }
+}
+@media(max-width:519px){
+    .specContainer h1{
+        font-size: 30px;
+    }
 }
