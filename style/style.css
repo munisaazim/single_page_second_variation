@@ -1654,13 +1654,32 @@ input[name=color]:checked+label[for=color-5]:before{
     text-align: center;
     margin-bottom: 50px;
 }
-.teamCollection{
+.AllTeamCollection{
     display: flex;
     justify-content: center;
     margin-top: 80px;
 }
 .teamCollectionTablet{
     display: flex;
-    width: 50%;
+  /*   width: 50%; */
     justify-content: center ;
 }  
+
+@media(max-width:982px){
+    .AllTeamCollection{
+        display: block;
+     }
+     .teamCollectionTablet{
+         display: flex;
+         width: 100%;
+         justify-content: center;
+     }
+}
+@media(max-width:794px){
+    .teamCollectionTablet{
+        flex-flow: column;
+    }
+    .collectionOne{
+        width: 100%;
+    }
+}
