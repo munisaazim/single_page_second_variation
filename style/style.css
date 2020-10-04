@@ -1664,7 +1664,12 @@ input[name=color]:checked+label[for=color-5]:before{
   /*   width: 50%; */
     justify-content: center ;
 }  
-
+.teamCollection{
+    max-width: 263px;
+}
+.teamCollection .teamText{
+    padding: 24px 0px 20px;
+}
 @media(max-width:982px){
     .AllTeamCollection{
         display: block;
