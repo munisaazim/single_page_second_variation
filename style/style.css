@@ -1661,14 +1661,28 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 .teamCollectionTablet{
     display: flex;
-  /*   width: 50%; */
     justify-content: center ;
 }  
 .teamCollection{
     max-width: 263px;
+    background: #fff;
+    margin: 0 15px;
 }
 .teamCollection .teamText{
     padding: 24px 0px 20px;
+}
+.teamText h4{
+    color: #374048;
+    margin: 0 0 10px;
+    text-align:  center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.teamText p{
+    color: #82898f;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
 }
 @media(max-width:982px){
     .AllTeamCollection{
