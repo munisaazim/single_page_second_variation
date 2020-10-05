@@ -1865,3 +1865,22 @@ input[name=color]:checked+label[for=color-5]:before{
         margin: 0px;
     }
 }
+/*Map*/
+.addressMap{
+    position: relative;
+}
+.mapContainer{
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.textMap{
+    background-color: #ffffff;
+    width: 60%;
+}
+#map{
+    z-index: 1;
+}
