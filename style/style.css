@@ -1831,8 +1831,19 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 @media(max-width:794px){
     .allApp{
-        flex-flow: column;
+        flex-flow: column-reverse;
         width: 100%;
         justify-content: center;
+    }
+    .appPhoto{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .appPhoto{
+        max-width: 60%;
+    }
+     .appText{
+        width: auto;
     }
 }
