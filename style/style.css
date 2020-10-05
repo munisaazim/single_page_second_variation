@@ -1879,7 +1879,7 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 .textMap{
     background-color: #ffffff;
-    width: 60%;
+    width: 40%;
     padding: 38px 40px 34px;
 }
 #map{
@@ -1890,6 +1890,7 @@ input[name=color]:checked+label[for=color-5]:before{
     color: #374048;
     font-weight:600;
     margin-bottom:30px;
+    text-transform: uppercase;
 }
 .textMap p{
     color: #a5aeb3;
@@ -1897,10 +1898,36 @@ input[name=color]:checked+label[for=color-5]:before{
     font-weight: 300;
     line-height:0.5;
 }
-.textMap p.hidden i{
+.textMap p.hidden i, .textMap p.hiddenLast i{
     visibility: hidden;
     margin-bottom: 15px;
 }
 .textMap i{
     margin-right: 15px;
+}
+.textMap p.hiddenLast{
+    margin-top: 50px;
+    background:  #FF1900;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text p.hidden:hover{
+    background:#374048;
+}
+p.hiddenLast a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: #ffffff;
+    position: absolute;
+    top: 15px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+p.hiddenLast a:hover{
+    color:#373840;
 }
