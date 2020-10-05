@@ -830,6 +830,24 @@
             </div>
         </div>
     </div>
+    <!--NewsLetter-->
+    <div class="map">
+        <div class="addressMap">
+            <div id="map" style="height: 520px;">
+            </div>
+        </div>
+        <div class="mapContainer">
+            <h4>Get in touch</h4>
+            <p><i class="fas fa-map-marker-alt"></i>523 Sylvan Ave, 5th Floor</p>
+            <p>Mountain View, CA 94041USA</p>
+            <p><i class="fas fa-phone"></i>+1 (234) 56789</p>
+            <p>+1 987 654 3210</p>
+            <p><i class="fas fa-envelope"></i> support@watchland.com</p>
+            <p><a href="">Contact Us</a></p>
+        </div>
+    </div>
+ 
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -849,6 +867,19 @@
 
         });
     </script>
+        <script>
+            function initMap() {
+                var location = { lat: 41.299496, lng: 69.240074 };
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 4,
+                    center: location
+                });
+            }      
+        </script>
+    
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQnIhNYNsoi40yyapmsDTwJiSv5FpG114&callback=initMap"></script>
+    </body>
 </body>
 
 </html>
