@@ -1866,6 +1866,9 @@ input[name=color]:checked+label[for=color-5]:before{
     }
 }
 /*Map*/
+.map{
+    margin-top: 100px;
+}
 .addressMap{
     position: relative;
 }
