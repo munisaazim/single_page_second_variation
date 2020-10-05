@@ -1772,7 +1772,7 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 .appText{
     width: 50%;
-    margin-top: 100px;
+    padding-top: 80px;
     margin: 0 30px;
 }
 .appText h1{
