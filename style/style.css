@@ -1872,7 +1872,7 @@ input[name=color]:checked+label[for=color-5]:before{
 .mapContainer{
     z-index: 999;
     position: absolute;
-    top: 10px;
+    top: 80px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1880,7 +1880,27 @@ input[name=color]:checked+label[for=color-5]:before{
 .textMap{
     background-color: #ffffff;
     width: 60%;
+    padding: 38px 40px 34px;
 }
 #map{
     z-index: 1;
+}
+.textMap h2{
+    font-size: 27px;
+    color: #374048;
+    font-weight:600;
+    margin-bottom:30px;
+}
+.textMap p{
+    color: #a5aeb3;
+    font-size: 16px;
+    font-weight: 300;
+    line-height:0.5;
+}
+.textMap p.hidden i{
+    visibility: hidden;
+    margin-bottom: 15px;
+}
+.textMap i{
+    margin-right: 15px;
 }
