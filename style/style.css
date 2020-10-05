@@ -1765,6 +1765,7 @@ input[name=color]:checked+label[for=color-5]:before{
 .allApp{
     display: flex;
     padding-top: 135px;
+    justify-content: center;
 }
 .appPhoto{
     width: 50%;
@@ -1772,10 +1773,10 @@ input[name=color]:checked+label[for=color-5]:before{
 .appText{
     width: 50%;
     margin-top: 100px;
+    margin: 0 30px;
 }
 .appText h1{
     font-size: 50px;
-    line-height: 29px;
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 30px; 
@@ -1804,4 +1805,10 @@ input[name=color]:checked+label[for=color-5]:before{
 .link p a:hover{
     border: 2px solid #374048;
     background-color:#374048;
+}
+/*Responsive*/
+@media(max-width:1278px){
+    .appPhoto img{
+        max-width: 100%;
+    }
 }
