@@ -1830,10 +1830,14 @@ input[name=color]:checked+label[for=color-5]:before{
     }
 }
 @media(max-width:794px){
+    .appContainer{
+        margin: 0px;
+    }
     .allApp{
         flex-flow: column-reverse;
         width: 100%;
         justify-content: center;
+        padding-top: 88px;
     }
     .appPhoto{
         width: 100%;
@@ -1842,8 +1846,22 @@ input[name=color]:checked+label[for=color-5]:before{
     }
     .appPhoto{
         max-width: 60%;
+        margin-top: 40px;
     }
      .appText{
-        width: auto;
+        width: 100%;
+        margin: 0px;
+    }
+    .appText h1, .appText p{
+        text-align: center;
+    }
+    .link{
+        justify-content: center;
+    }
+    .link p{
+        margin: 0 2px;
+    }
+    .link p a{
+        margin: 0px;
     }
 }
