@@ -1811,4 +1811,22 @@ input[name=color]:checked+label[for=color-5]:before{
     .appPhoto img{
         max-width: 100%;
     }
+    .appText{
+        padding-top: 0px;
+    }
+    .appText h1{
+        margin-top: 60px;
+    }
+}
+@media(max-width:982px){
+    .appText h1{
+        font-size: 30px;
+    }
+    .appText p{
+        font-size: 15px;
+    }
+    .appText h1{
+        margin-top: 88px;
+    }
+    
 }
