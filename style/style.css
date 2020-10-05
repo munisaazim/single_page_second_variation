@@ -1757,3 +1757,34 @@ input[name=color]:checked+label[for=color-5]:before{
     margin: 0;
     opacity: 0.95;
 }
+.appContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.allApp{
+    display: flex;
+    padding-top: 135px;
+}
+.appPhoto{
+    width: 50%;
+}
+.appText{
+    width: 50%;
+    margin-top: 90px;
+}
+.appText h1{
+    font-size: 50px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 30px; 
+    text-transform: uppercase;
+    margin: 0 0 25px;
+}
+.appText p{
+    color: #feffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+}
