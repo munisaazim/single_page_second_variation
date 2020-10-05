@@ -1958,3 +1958,12 @@ p.hiddenLast a:hover{
         margin-right: 5px;
     }
 }
+/*Footer*/
+.footer{
+    margin-top: 80px;
+}
+.footerContainer{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
