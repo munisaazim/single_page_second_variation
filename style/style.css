@@ -1755,7 +1755,7 @@ input[name=color]:checked+label[for=color-5]:before{
     background-size: cover;
     padding: 0;
     margin: 0;
-    opacity: 0.95;
+    opacity: 1;
 }
 .appContainer{
     max-width: 1280px;
@@ -1771,7 +1771,7 @@ input[name=color]:checked+label[for=color-5]:before{
 }
 .appText{
     width: 50%;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 .appText h1{
     font-size: 50px;
@@ -1787,4 +1787,21 @@ input[name=color]:checked+label[for=color-5]:before{
     font-size: 18px;
     font-weight: 300;
     line-height: 32px;
+}
+.link{
+    display: flex;
+    margin-top: 30px;
+}
+.link p a{
+    color: #f8f9fa;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    background-color:#000000;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+}
+.link p a:hover{
+    border: 2px solid #374048;
+    background-color:#374048;
 }
