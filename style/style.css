@@ -1931,3 +1931,27 @@ p.hiddenLast a{
 p.hiddenLast a:hover{
     color:#373840;
 }
+/*Responsive*/
+@media(max-width:819px){
+    .textMap p.hidden{
+        line-height: 1;
+    }
+}
+@media(max-width:794px){
+    .textMap{
+        width: 90%;
+    }
+}
+@media(max-width:732px){
+    .textMap p{
+        line-height: 1.5;
+    }
+    .textMap p.hiddenLast{
+        line-height: 0.5;
+    }
+}
+@media(max-width:351px){
+    .textMap p i{
+        margin-right: 5px;
+    }
+}
