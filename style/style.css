@@ -1702,13 +1702,21 @@ input[name=color]:checked+label[for=color-5]:before{
          display: flex;
          width: 100%;
          justify-content: center;
+         margin-top: 40px;
      }
 }
 @media(max-width:794px){
     .teamCollectionTablet{
         flex-flow: column;
-    }
-    .collectionOne{
+        margin-top: 0px;
         width: 100%;
+    }
+    .teamCollection{
+        background: none;
+        margin: 0 auto;
+        padding-top:30px;
+    }
+    .teamText, .teamPhoto{
+        background: #ffffff;
     }
 }
