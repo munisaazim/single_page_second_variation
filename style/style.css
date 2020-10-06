@@ -540,6 +540,12 @@ label.checkbtn i.fa-times{
 }
 /*Responsive*/
 @media(max-width:982px){
+    .featurePhoto{
+        width: 100%;
+    }
+    .featurePhoto img{
+        max-width: 100%;
+    }
     .mainFeatureTwo{
         display: none;
     }
@@ -584,7 +590,7 @@ label.checkbtn i.fa-times{
         justify-content: center;
     }
     @media(max-width:772px){
-        .benefitTwoContainer .featurePhoto img{
+        .benefitTwoContainer{
             width: 70%;
         }
     }
