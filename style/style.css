@@ -272,8 +272,12 @@ label.checkbtn i.fa-times{
 }
 /*Responsiveness of product*/
 @media(max-width:772px){
+    .appleWatchTwo{
+        width: 100%;
+    }
     .appleWatchTwo img{
-        width: 50%;
+      /*   width: 50%; */
+      max-width: 90%;
     }
     .productContainer p span{
         border: none;
@@ -590,7 +594,7 @@ label.checkbtn i.fa-times{
         justify-content: center;
     }
     @media(max-width:772px){
-        .benefitTwoContainer{
+        .benefitTwoContainer /*.featurePhoto img*/{
             width: 70%;
         }
     }
