@@ -1967,3 +1967,28 @@ p.hiddenLast a:hover{
     margin: 0 auto;
     padding: 0 40px;
 }
+.footerText{
+    display: flex;
+    justify-content: center;
+}
+.footerText p{
+    border-radius: 100%;
+    background-color: #ff1900;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+    opacity: 0.5;
+}
+.footer p a i{
+    font-size: 22px;
+    color: #ffffff;
+    position: absolute;
+    top: 13px;
+    right: 12px;
+  
+}
+.footer p a.last i{
+    right: 14px;
+}
