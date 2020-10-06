@@ -1967,7 +1967,7 @@ p.hiddenLast a:hover{
     margin: 0 auto;
     padding: 0 40px;
     border-bottom: 1px solid #e9eef2;
-    border-top: 1px solid #e9eef2;
+
 }
 .footerText{
     display: flex;
@@ -1997,6 +1997,7 @@ p.hiddenLast a:hover{
 .footer p a:hover i{
      color: #373840;
 }
+/*Responsive*/
 @media(max-width:430px){
     .footerText p{
         width: 35px;
@@ -2013,6 +2014,9 @@ p.hiddenLast a:hover{
     }
 }
 @media(max-width:294px){
+    .footerContainer{
+        border-top: 1px solid #e9eef2;
+    }
     .footerText p{
         width: 28px;
         height: 28px;
@@ -2023,4 +2027,23 @@ p.hiddenLast a:hover{
         top: 6.5px;
         right: 7px;
     }
+}
+/*CopyRight*/
+.copyright{
+    margin-top: 10px;
+}
+.copyrightContainer{
+    max-width: 1280px;
+    padding: 0 40px;
+    margin:  0 auto;
+}
+.copyText{
+    text-align: center;
+}
+.copyText p{
+    color: #c3cbd1;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1;
+    
 }
