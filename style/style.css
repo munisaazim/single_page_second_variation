@@ -544,7 +544,7 @@ label.checkbtn i.fa-times{
         width: 100%;
     }
     .featurePhoto img{
-        max-width: 100%;
+        max-width: 90%;
     }
     .mainFeatureTwo{
         display: none;
