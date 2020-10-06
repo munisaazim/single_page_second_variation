@@ -307,7 +307,7 @@ label.checkbtn i.fa-times{
     }
     .appleWatchTwo img{
         /*   width: 50%; */
-        max-width: 70%;
+        max-width: 50%;
       }
 }
 @media(max-width:319px){
