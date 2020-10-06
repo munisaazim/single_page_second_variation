@@ -1966,6 +1966,7 @@ p.hiddenLast a:hover{
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 40px;
+    border-bottom: 1px solid #e9eef2;
 }
 .footerText{
     display: flex;
@@ -1991,4 +1992,7 @@ p.hiddenLast a:hover{
 }
 .footer p a.last i{
     right: 14px;
+}
+.footer p a:hover i{
+     color: #373840;
 }
